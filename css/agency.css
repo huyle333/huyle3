@@ -8,6 +8,10 @@
     margin: auto;
 }
 
+.autospace{
+    margin: -2em auto 20px auto;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -175,7 +179,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #006699;
 }
 
 .navbar-default .navbar-brand {
@@ -501,11 +505,8 @@ section h3.section-subheading {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
-    border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #0099CC;
 }
 
 .timeline>li .timeline-image h4 {
@@ -665,7 +666,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    /* background-image: url(../img/map-image.png);*/
     background-position: center;
     background-repeat: no-repeat;
 }

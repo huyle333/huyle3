@@ -172,6 +172,7 @@
             // ---------------------------------------------------------
             //                                                    NUMBER
             // ---------------------------------------------------------
+            /*
             if ($this.attr("type") !== undefined && $this.attr("type").toLowerCase() === "number") {
               message = settings.builtInValidators.number.message;
               if ($this.data("validationNumberMessage")) {
@@ -179,6 +180,7 @@
               }
               $this.data("validationNumberMessage", message);
             }
+            */
             // ---------------------------------------------------------
             //                                                     EMAIL
             // ---------------------------------------------------------
