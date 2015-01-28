@@ -10,9 +10,12 @@ Visit my website at:
 http://huyle.me
 ```
 
-### To Do
-- Fix messaging form. For some reason, sending a message does not 
-actually send me the e-mail!
+### Troubleshooting email to get PHP's mail function to work properly
+Installation of postfix
+```
+sudo apt-get install postfix
+```
+You should use Internet: Your own mail-server.
 
 ### Thank you
 - Boostrap
