@@ -786,7 +786,6 @@ ul.social-buttons li a:active {
     min-height: 100%;
     border: 0;
     border-radius: 0;
-    text-align: center;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -799,6 +798,14 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content .title{
+    text-align: center;
+}
+
+.portfolio-modal .modal-content .button{
+    text-align: center;
 }
 
 .portfolio-modal .modal-content p.item-intro {
