@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 if (isset($_SERVER['HTTP_ORIGIN'])) {
     //header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}");
     header("Access-Control-Allow-Origin: *");
@@ -14,6 +15,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     exit(0);
 } 
 
+=======
+>>>>>>> 9f09a5d8ff64a868e1c09bc57607dea1de5913f3
 // Check for empty fields
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
@@ -38,4 +41,8 @@ $headers = "From: noreply@huyle.me\n"; // This is the email address the generate
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
 return true;			
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> 9f09a5d8ff64a868e1c09bc57607dea1de5913f3
